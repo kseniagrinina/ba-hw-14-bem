@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ade0067c92.js" crossorigin="anonymous"></script>
+    <title>Nike | Huarache</title>
+</head>
+
+<body class="page">
+
+    <header class="header">
+
+        <div class="logo">
+            <a href="#" class="logo__link">
+                <img src="img/logo.png" alt="nike logo">
+            </a>
+        </div>
+
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="menu__item"><a href="" class="menu__link link">LIFESTYLE</a></li>
+                <li class="menu__item"><a href="" class="menu__link link">RUNNING</a></li>
+                <li class="menu__item"><a href="" class="menu__link link">FOOTBALL</a></li>
+                <li class="menu__item"><a href="" class="menu__link link">SKATEBOARDING</a></li>
+            </ul>
+        </nav>
+
+        <span class="dropdown__toggle"><i class="fa fa-bars"></i>
+        </span>
+
+    </header>
+
+    <main class="content">
+        <div class="product-card">
+
+            <div class="preview">
+                <div class="product-slider">
+                    <div class="product-slider__view slider-view">
+                        <form action="#">
+                            <ul class="slider-view__images">
+                                <li class="slider-view__item">
+                                    <input type="radio" name="slide" id="slide_1">
+                                    <img src="img/view-front.png" alt="Huarache front view" class="slider-view__img">
+                                </li>
+                                <li class="slider-view__item">
+                                    <input type="radio" name="slide" id="slide_2">
+                                    <img src="img/view-back.png" alt="Huarache back view" class="slider-view__img">
+                                </li>
+                                <li class="slider-view__item">
+                                    <input type="radio" name="slide" id="slide_3">
+                                    <img src="img/view-side.png" alt="Huarache side view" class="slider-view__img">
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="product-slider__control slider-control">
+                        <label for="slide_1" class="slider-control__item">
+                            <img src="img/view-front.png" alt="" class="slider-control__img">
+                        </label>
+                        <label for="slide_1" class="slider-control__item">
+                            <img src="img/view-back.png" alt="" class="slider-control__img">
+                        </label>
+                        <label for="slide_1" class="slider-control__item">
+                            <img src="img/view-side.png" alt="" class="slider-control__img">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="description">
+                <div class="label">New</div>
+                <h3 class="promo-text">THE <span class="promo-text__highlight">RUNNING</span>
+                    HAS JUST BEGUN</h3>
+                <h2 class="product-name">Huarache</h2>
+                <div class="rating">
+                    <i class="rating-item--solid fas fa-star"></i><i class=""></i>
+                    <i class="rating-item--solid fas fa-star"></i><i class=""></i>
+                    <i class="rating-item--solid fas fa-star"></i><i class=""></i>
+                    <i class="rating-item--solid fas fa-star"></i><i class=""></i>
+                    <i class="rating-item far fa-star"></i>
+                </div>
+                <p class="price">$ 200</p>
+                <div class="size">
+                    <p class="size__title">Size</p>
+                    <form action="#" class="size__select size-select">
+                        <input type="radio" name="size" id="size_7" value="size_7" class="slider-view__input">
+                        <label for="size_7" class="size__label">7</label>
+
+
+                        <input type="radio" name="size" id="size_8" value="size_8" class="slider-view__input">
+                        <label for="size_8" class="size__label">8</label>
+
+                        <input type="radio" name="size" id="size_9" value="size_9" class="slider-view__input">
+                        <label for="size_9" class="size__label">9</label>
+
+                        <input type="radio" name="size" id="size_10" value="size_10" class="slider-view__input">
+                        <label for="size_10" class="size__label">10</label>
+
+                        <input type="radio" name="size" id="size_11" value="size_11" class="slider-view__input">
+                        <label for="size_11" class="size__label">11</label>
+                    </form>
+
+                    <button class="button button--cart">Add to cart</button>
+                    <button class="button button--wishlist">Wishlist</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
