@@ -166,6 +166,10 @@ z-index: -1;
     border: 5px solid #ffffff;
 }
 
+.slider-control__img:hover {
+    cursor: pointer;
+}
+
 .description {
     padding: 50px 30px;
 }
@@ -237,6 +241,10 @@ z-index: -1;
     text-align: center;
     border: 1px solid transparent;
     padding: 2px;
+}
+
+.size__label:hover {
+    cursor: pointer;
 }
 
 .slider-view__input {
