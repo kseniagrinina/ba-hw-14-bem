@@ -109,14 +109,62 @@ z-index: -1;
 }
 
 .preview {
-    background-color: #f4f4f4;
     grid-area: preview;
+    background: url(img/bg.png) #f4f4f4;
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-position-y: 100px;
 }
 
+.slider-view {
+    position: relative;
+}
 
+.slider-view__radio {
+    display: none;
+}
 
+.slider-view__radio:checked + .slider-view__img {
+    opacity: 1;
+}
 
+.slider-view__item {
+    list-style-type: none;
+}
 
+.slider-view__img {
+    opacity: 0;
+    position: absolute;
+    left: 70px;
+    width: 500px;
+}
+
+.preview:before {
+    content: 'Huarache';
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-family: Roboto, sans-serif;
+    font-size: 100px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-control {
+    position: absolute;
+    bottom: 25px;
+    left: 220px;
+}
+
+.slider-control__img {
+    display: inline;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #ffffff;
+}
 
 .description {
     padding: 50px 30px;
